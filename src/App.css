@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  text-decoration: none;
+
  
 
 }
@@ -40,6 +42,17 @@
 }
 
 a{
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+a:visited{
+  color: black;
+  text-decoration: none;
+  font-size: xx-large;
+}
+a:hover{
+  color: blue;
   text-decoration: none;
   font-size: xx-large;
 }

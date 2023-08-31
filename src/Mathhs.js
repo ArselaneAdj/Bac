@@ -17,7 +17,7 @@ function Mathhs() {
   const [total, setTotal] = useState("")
 
   const count = () => {
-    setTotal((math * 5 + science * 6 + physique * 5 + arabe * 3 + fr * 3 + eng * 3 + sport * 1 + hg * 2 + islamiya * 2 + phylo * 1)/31) ;
+    setTotal((math * 7 + science * 2 + physique * 6 + arabe * 3 + fr * 2 + eng * 2 + sport * 1 + hg * 2 + islamiya * 2 + phylo * 2)/31) ;
   }
   
   return (
